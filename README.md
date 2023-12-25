@@ -9,7 +9,7 @@
 ---
 ### C. Structural Design Patterns
 ---
-### Thanks
+### Thanks :pray:
 1. https://www.udemy.com/course/basics-of-software-architecture-design-in-java
 2. https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial
 3. https://refactoring.guru/design-patterns/catalog
