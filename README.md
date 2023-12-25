@@ -3,8 +3,9 @@
 ## Design-Patterns
 ---
 ### A. Creational Design Patterns
+* [x] [Singleton Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/CreationalDesignPatterns/SingletonPattern)
 ---
-### B. Behaviora Design Patterns
+### B. Behavioral Design Patterns
 ---
 ### C. Structural Design Patterns
 ---
