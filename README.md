@@ -1,6 +1,6 @@
-# Dart
+# Dart 🎯
 ---
-## Design-Patterns
+## Design-Patterns 🧩🧮
 ---
 ### A. Creational Design Patterns 🏗
 * [x] [Singleton Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/CreationalDesignPatterns/SingletonPattern)
@@ -34,7 +34,7 @@
 * [x] [Proxy Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/ProxyPattern)
 * [x] [Service Locator Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/ServiceLocatorPattern)
 ---
-### Thanks :pray:
+### Thanks 🙏🏻
 1. https://www.udemy.com/course/basics-of-software-architecture-design-in-java
 2. https://www.digitalocean.com/community/tutorials/java-design-patterns-example-tutorial
 3. https://refactoring.guru/design-patterns/catalog
