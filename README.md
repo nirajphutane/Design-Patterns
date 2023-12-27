@@ -23,7 +23,16 @@
 * [x] [Visitor Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/VisitorPattern)
 ---
 ### C. Structural Design Patterns
-
+* [x] [Adapter Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/AdapterPattern)
+* [x] [Bridge Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/BridgePattern)
+* [x] [Composite Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/CompositePattern)
+* [x] [DAO Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/DAO_Pattern)
+* [x] [Decorator Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/DecoratorPattern)
+* [x] [Dependency Injection Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/DependencyInjectionPattern)
+* [x] [Flyweight Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/FlyweightPattern)
+* [x] [Mediator Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/MediatorPattern)
+* [x] [Proxy Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/ProxyPattern)
+* [x] [Service Locator Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/ServiceLocatorPattern)
 ---
 ### Thanks :pray:
 1. https://www.udemy.com/course/basics-of-software-architecture-design-in-java
