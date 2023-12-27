@@ -10,8 +10,20 @@
 * [x] [Prototype Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/CreationalDesignPatterns/PrototypePattern)
 ---
 ### B. Behavioral Design Patterns
+* [x] [Chain Of Responsibility Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/ChainOfResponsibilityPattern)
+* [x] [Command Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/CommandPattern)
+* [x] [Interpreter Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/InterpreterPattern)
+* [x] [Iterator Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/IteratorPattern)
+* [x] [MVC Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/MVCPattern)
+* [x] [Memento Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/MementoDesignPattern)
+* [x] [Observer Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/ObserverPattern)
+* [x] [State Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/StatePattern)
+* [x] [Strategy Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/StrategyPattern)
+* [x] [Template Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/TemplatePattern)
+* [x] [Visitor Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/VisitorPattern)
 ---
 ### C. Structural Design Patterns
+
 ---
 ### Thanks :pray:
 1. https://www.udemy.com/course/basics-of-software-architecture-design-in-java
