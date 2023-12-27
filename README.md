@@ -2,14 +2,14 @@
 ---
 ## Design-Patterns
 ---
-### A. Creational Design Patterns
+### A. Creational Design Patterns 🏗
 * [x] [Singleton Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/CreationalDesignPatterns/SingletonPattern)
 * [x] [Factory Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/CreationalDesignPatterns/FactoryPattern)
 * [x] [Abstract Factory Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/CreationalDesignPatterns/AbstractFactoryPattern)
 * [x] [Builder Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/CreationalDesignPatterns/BuilderPattern)
 * [x] [Prototype Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/CreationalDesignPatterns/PrototypePattern)
 ---
-### B. Behavioral Design Patterns
+### B. Behavioral Design Patterns ⚗️
 * [x] [Chain Of Responsibility Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/ChainOfResponsibilityPattern)
 * [x] [Command Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/CommandPattern)
 * [x] [Interpreter Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/InterpreterPattern)
@@ -22,7 +22,7 @@
 * [x] [Template Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/TemplatePattern)
 * [x] [Visitor Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/BehavioralDesignPatterns/VisitorPattern)
 ---
-### C. Structural Design Patterns
+### C. Structural Design Patterns 🌉
 * [x] [Adapter Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/AdapterPattern)
 * [x] [Bridge Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/BridgePattern)
 * [x] [Composite Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/CompositePattern)
