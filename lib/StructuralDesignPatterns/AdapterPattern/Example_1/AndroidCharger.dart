@@ -3,11 +3,9 @@ import 'IAndroidCharger.dart';
 
 class AndroidCharger {
 
-  IAndroidCharger _androidCharger;
+  final IAndroidCharger _androidCharger;
 
   AndroidCharger(this._androidCharger);
 
-  void charge() {
-    _androidCharger.typeC();
-  }
+  void charge() => _androidCharger.typeC();
 }

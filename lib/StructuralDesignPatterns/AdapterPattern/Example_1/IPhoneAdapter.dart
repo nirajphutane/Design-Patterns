@@ -6,7 +6,7 @@ import 'Mobiles.dart';
 class IPhone15ProAdapter extends IPhone15Pro implements IAndroidCharger {
 
   @override
-  void typeC() => typeUSB_C();
+  void typeC() => typeG();
 }
 
 // Object Adapter - This form uses Composition and adapter contains the source object.
@@ -17,5 +17,5 @@ class IPhoneAdapter implements IAndroidCharger {
   IPhoneAdapter(this.iPhone15Pro);
 
   @override
-  void typeC() => iPhone15Pro.typeUSB_C();
+  void typeC() => iPhone15Pro.typeG();
 }

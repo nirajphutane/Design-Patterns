@@ -1,5 +1,5 @@
 
 abstract interface class IIPhoneCharger {
 
-  void typeUSB_C();
+  void typeG();
 }
