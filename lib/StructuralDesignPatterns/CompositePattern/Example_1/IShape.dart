@@ -1,4 +1,4 @@
 
 abstract interface class IShape {
-  void draw(String color);
+  void draw(final String color);
 }
