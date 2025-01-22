@@ -1,11 +1,11 @@
 
 import 'IBeverage.dart';
 
- abstract class BeverageDecorator implements IBeverage {
+abstract class BeverageDecorator implements IBeverage {
 
   final IBeverage iBeverage;
 
-  BeverageDecorator(this.iBeverage);
+  const BeverageDecorator(this.iBeverage);
 
   @override
   double getCost() => iBeverage.getCost();
@@ -21,5 +21,5 @@ abstract class BeverageDecorator implements IBeverage {
 
  final IBeverage iBeverage;
 
- BeverageDecorator(this.iBeverage);
+ const BeverageDecorator(this.iBeverage);
 }*/

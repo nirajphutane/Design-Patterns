@@ -4,7 +4,7 @@ import 'BeverageDecorator.dart';
 
 class Milk extends BeverageDecorator {
 
-  Milk(IBeverage beverage) : super(beverage);
+  const Milk(final IBeverage beverage) : super(beverage);
 
   @override
   double getCost() => super.getCost() + 5;
@@ -15,7 +15,7 @@ class Milk extends BeverageDecorator {
 
 class Chocolate extends BeverageDecorator {
 
-  Chocolate(Milk beverage) : super(beverage);
+  const Chocolate(final Milk beverage) : super(beverage);
 
   @override
   double getCost() => super.getCost() + 15;
@@ -26,7 +26,7 @@ class Chocolate extends BeverageDecorator {
 
 class Sugar extends BeverageDecorator {
 
-  Sugar(IBeverage beverage) : super(beverage);
+  const Sugar(final IBeverage beverage) : super(beverage);
 
   @override
   double getCost() => super.getCost() + 7.5;
@@ -42,7 +42,7 @@ class Milk extends BeverageDecorator {
 
   final IBeverage beverage;
 
-  Milk(this.beverage) : super(beverage);
+  const Milk(this.beverage) : super(beverage);
 
   @override
   double getCost() => beverage.getCost() + 5;
@@ -55,7 +55,7 @@ class Chocolate extends BeverageDecorator {
 
   final Milk beverage;
 
-  Chocolate(this.beverage) : super(beverage);
+  const Chocolate(this.beverage) : super(beverage);
 
   @override
   double getCost() => beverage.getCost() + 15;
@@ -68,7 +68,7 @@ class Sugar extends BeverageDecorator {
 
   final IBeverage beverage;
 
-  Sugar(this.beverage) : super(beverage);
+  const Sugar(this.beverage) : super(beverage);
 
   @override
   double getCost() => beverage.getCost() + 7.5;
