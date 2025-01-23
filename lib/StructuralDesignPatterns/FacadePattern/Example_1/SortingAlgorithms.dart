@@ -4,23 +4,17 @@ import 'ISorter.dart';
 class BubbleSort implements ISorter {
 
   @override
-  void sort() {
-    print('Performing BubbleSorting');
-  }
+  void sort() => print('Performing BubbleSorting');
 }
 
 class MergeSort implements ISorter {
 
   @override
-  void sort() {
-    print('Performing MergeSorting');
-  }
+  void sort() => print('Performing MergeSorting');
 }
 
 class QuickSort implements ISorter {
 
   @override
-  void sort() {
-    print('Performing QuickSorting');
-  }
+  void sort() => print('Performing QuickSorting');
 }

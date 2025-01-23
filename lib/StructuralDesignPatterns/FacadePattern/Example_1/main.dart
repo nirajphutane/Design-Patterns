@@ -1,8 +1,8 @@
 
 import 'SortingManager.dart';
 
-void main(List<String> args) {
-  SortingManager sortingManager = SortingManager();
+void main(final List<String> args) {
+  final SortingManager sortingManager = SortingManager();
   sortingManager.doBubbleSort();
   sortingManager.doMergeSort();
   sortingManager.doQuickSort();
