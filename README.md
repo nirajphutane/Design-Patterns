@@ -29,6 +29,7 @@
 * [x] [DAO Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/DAO_Pattern)
 * [x] [Decorator Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/DecoratorPattern)
 * [x] [Dependency Injection Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/DependencyInjectionPattern)
+* [x] [Facade Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/FacadePattern)
 * [x] [Flyweight Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/FlyweightPattern)
 * [x] [Mediator Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/MediatorPattern)
 * [x] [Proxy Design Pattern](https://github.com/nirajphutane/Design-Patterns/tree/main/lib/StructuralDesignPatterns/ProxyPattern)
