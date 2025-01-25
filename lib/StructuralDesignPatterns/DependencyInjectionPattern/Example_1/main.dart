@@ -3,7 +3,7 @@ import 'IConsumer.dart';
 import 'IInjector.dart';
 import 'ServiceInjectors.dart';
 
-void main(List<String> args) {
+void main(final List<String> args) {
 
   IInjector injector = EmailServiceInjector();
   IConsumer consumer = injector.getConsumer();

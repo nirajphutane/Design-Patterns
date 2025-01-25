@@ -6,10 +6,8 @@ class DependencyInjection implements IConsumer {
 
   final IService _iService;
 
-  DependencyInjection(this._iService);
+  const DependencyInjection(this._iService);
 
   @override
-  void send(String to, String text) {
-    _iService.send(to, text);
-  }
+  void send(final String to, final String text) => _iService.send(to, text);
 }
