@@ -8,7 +8,7 @@ class ServiceLocator {
 
   static final Cache _cache = Cache();
 
-  static IService getService(Services service) {
+  static IService getService(final Services service) {
     IService? iService = _cache.getService(service);
     if(iService == null) {
       iService = InitialContext().lookUp(service) as IService;
@@ -22,7 +22,7 @@ class ServiceLocator {
 //
 //   static final Cache cache = Cache();
 //
-//   static IService getService(Services service) {
+//   static IService getService(final Services service) {
 //     IService? iService = cache.getService(service);
 //     if(iService == null) {
 //       iService = InitialContext().lookUp(service) as IService;

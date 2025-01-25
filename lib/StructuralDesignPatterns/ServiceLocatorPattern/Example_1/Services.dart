@@ -22,9 +22,7 @@ class EmailService implements IService {
   static const Services service = Services.emailService;
 
   @override
-  void execute() {
-    print('${service.name} is working...');
-  }
+  void execute() => print('${service.name} is working...');
 
   @override
   String getName() => service.name;

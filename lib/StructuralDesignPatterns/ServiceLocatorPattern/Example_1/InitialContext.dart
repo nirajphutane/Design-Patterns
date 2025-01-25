@@ -6,7 +6,7 @@ class InitialContext {
 
   // IService? lookUp(String jndt): Here JNDT is Java Naming and Directory Interface.
 
-  IService? lookUp(Services service) {
+  IService? lookUp(final Services service) {
     switch(service) {
       case Services.messageService:
         return MessageService();
@@ -17,7 +17,7 @@ class InitialContext {
     }
   }
 
-  // Object lookUp(Services service) {
+  // Object lookUp(final Services service) {
   //   switch(service) {
   //     case Services.messageService:
   //       return MessageService();
