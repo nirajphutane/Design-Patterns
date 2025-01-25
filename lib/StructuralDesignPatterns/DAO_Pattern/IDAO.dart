@@ -3,25 +3,25 @@ import 'ProductModel.dart';
 
 abstract interface class IDAO {
 
-  bool addProduct(Product product);
+  bool addProduct(final Product product);
 
-  void addProducts(List<Product> products);
+  void addProducts(final List<Product> products);
 
   List<Product> readAll();
 
-  List<Product> readBy({int? productId, String? productName, double? priceRange});
+  List<Product> readBy({final int? productId, final String? productName, final double? priceRange});
 
-  List<Product> readById(int productId);
+  List<Product> readById(final int productId);
 
-  List<Product> readByPriceRange(double priceRange);
+  List<Product> readByPriceRange(final double priceRange);
 
-  List<Product> update(int productId, {String? productName, String? description, double? price});
+  List<Product> update(final int productId, {final String? productName, final String? description, final double? price});
 
-  List<Product> updateProductName(int productId, String productName);
+  List<Product> updateProductName(final int productId, final String productName);
 
-  List<Product> updatePrice(int productId, double price);
+  List<Product> updatePrice(final int productId, final double price);
 
-  bool removeProduct(int productId);
+  bool removeProduct(final int productId);
 
-  void removeProducts(List<int> productIds);
+  void removeProducts(final List<int> productIds);
 }

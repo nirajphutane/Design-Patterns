@@ -3,8 +3,8 @@ import 'ProductModel.dart';
 import 'IDAO.dart';
 import 'DAO.dart';
 
-void main(List<String> args) {
-  IDAO dao = DAO();
+void main(final List<String> args) {
+  final IDAO dao = DAO();
   printProduct(dao.readAll());
   dao.addProduct(Product(productId: 70701, product: 'NewProduct-A', description: 'NewProduct-A', price: 100.10));
   printProduct(dao.readById(70701));
@@ -25,13 +25,11 @@ void main(List<String> args) {
   printProduct(dao.readAll());
 }
 
-void printProduct(List<Product> products) {
+void printProduct(final List<Product> products) {
   print('\nProduct Table:');
   print('ID\tProductId\tProductName\t\tDescription\t\t\t\t\t\t\t\tPrice');
-  int i = 0;
-  for(Product product in products) {
-    i++;
+  for(final Product product in products) {
     print('${product.id}\t\t${product.productId}\t${product.product}\t\t${product.description}\t${product.price}');
   }
-  print('Total records: $i');
+  print('Total records: ${products.length}');
 }

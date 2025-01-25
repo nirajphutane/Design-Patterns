@@ -2,7 +2,7 @@
 class Product {
 
   int? id;
-  int productId;
+  final int productId;
   String product;
   String? description;
   double price;

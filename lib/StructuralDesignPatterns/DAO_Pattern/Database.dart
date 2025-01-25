@@ -44,7 +44,7 @@ class Database {
     _index = _data.length;
   }
 
-  bool add(Product product) {
+  bool add(final Product product) {
     product.id = ++_index;
     _data.add(product);
     return true;
@@ -52,8 +52,8 @@ class Database {
 
   List<Product> readAll() => _data;
 
-  List<Product> read({int? productId, String? productName, double? priceRange}) {
-    List<Product> data = [];
+  List<Product> read({final int? productId, final String? productName, final double? priceRange}) {
+    final List<Product> data = [];
     for(Product product in _data) {
       if(productId != null && productId == product.productId) {
         data.add(product);
@@ -68,7 +68,7 @@ class Database {
     return data;
   }
 
-  List<Product> update(int productId, {String? productName, String? description, double? price}) {
+  List<Product> update(final int productId, {final String? productName, final String? description, final double? price}) {
     for(int i = 0; i < _data.length; i++) {
       if(_data[i].productId == productId) {
         if(productName != null) {
@@ -85,7 +85,7 @@ class Database {
     return _data;
   }
 
-  bool remove(int productId) {
+  bool remove(final int productId) {
     for(int i = 0; i < _data.length; i++) {
       if(_data[i].productId == productId) {
         _data.removeAt(i);
