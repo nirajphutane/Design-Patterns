@@ -4,12 +4,11 @@ import 'Shapes.dart';
 
 class ShapeFactory {
 
-  // Create a rectangle for every color
   final Map<String, IShape> map = {};
 
-  IShape getShape(IShapes iShape, String color) {
+  IShape getShape(final IShapes shape, final String color) {
     if(!map.containsKey(color)) {
-      switch(iShape) {
+      switch(shape) {
         case IShapes.rectangle: {
           map[color] = Rectangle(color);
           break;
@@ -19,7 +18,6 @@ class ShapeFactory {
           break;
         }
       }
-
     }
     return map[color]!;
   }

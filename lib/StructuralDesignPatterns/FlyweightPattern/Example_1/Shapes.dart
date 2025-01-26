@@ -9,9 +9,9 @@ class Circle implements IShape {
   Circle(this.color);
 
   @override
-  set x(double x) => _x = x;
+  set x(final double x) => _x = x;
   @override
-  set y(double y) => _y = y;
+  set y(final double y) => _y = y;
 
   get xCoordinate => _x?? 0.0;
   get yCoordinate => _y?? 0.0;
@@ -28,9 +28,9 @@ class Rectangle implements IShape {
   Rectangle(this.color);
 
   @override
-  set x(double x) => _x = x;
+  set x(final double x) => _x = x;
   @override
-  set y(double y) => _y = y;
+  set y(final double y) => _y = y;
 
   get xCoordinate => _x?? 0.0;
   get yCoordinate => _y?? 0.0;

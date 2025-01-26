@@ -3,9 +3,9 @@ import 'IShape.dart';
 import 'Shapes.dart';
 import 'ShapeFactory.dart';
 
-void main(List<String> args) {
+void main(final List<String> args) {
 
-  ShapeFactory shapeFactory = ShapeFactory();
+  final ShapeFactory shapeFactory = ShapeFactory();
 
   IShape iShape = shapeFactory.getShape(IShapes.rectangle,'Green');
   iShape.draw();
@@ -15,21 +15,19 @@ void main(List<String> args) {
       ..y = 200;
   iShape.draw();
 
-  iShape = shapeFactory.getShape(IShapes.rectangle,'Red');
-  iShape.draw();
+  shapeFactory.getShape(IShapes.rectangle,'Red').draw();
 
   iShape = shapeFactory.getShape(IShapes.rectangle,'Red')
     ..x = 0
-    ..y = 0;
-  iShape.draw();
+    ..y = 0
+    ..draw();
 
-  iShape = shapeFactory.getShape(IShapes.rectangle,'Yellow');
-  iShape.draw();
+  shapeFactory.getShape(IShapes.rectangle,'Yellow').draw();
 
-  iShape = shapeFactory.getShape(IShapes.rectangle,'Blue')
+  shapeFactory.getShape(IShapes.rectangle,'Blue')
     ..x = 120
-    ..y = 240;
-  iShape.draw();
+    ..y = 240
+    ..draw();
 
   iShape = shapeFactory.getShape(IShapes.rectangle, 'Green')
     ..x = 135
@@ -70,14 +68,14 @@ void main(List<String> args) {
 
   iShape = shapeFactory.getShape(IShapes.circle, 'Pink')
     ..x = 135
-    ..y = 235;
-  iShape.draw();
+    ..y = 235
+    ..draw();
 
-  Circle circle = shapeFactory.getShape(IShapes.circle, 'White') as Circle;
+  final Circle circle = shapeFactory.getShape(IShapes.circle, 'White') as Circle;
   circle.draw();
 
-  circle = shapeFactory.getShape(IShapes.circle, 'White') as Circle
+  shapeFactory.getShape(IShapes.circle, 'White') as Circle
     ..x = 199
-    ..y = 991;
-  circle.draw();
+    ..y = 991
+    ..draw();
 }

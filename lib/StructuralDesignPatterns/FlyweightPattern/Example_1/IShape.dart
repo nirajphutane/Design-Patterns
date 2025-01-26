@@ -1,8 +1,7 @@
 
 abstract interface class IShape {
-  double? _x, _y;
-  set x(double x) => _x = x;
-  set y(double y) => _y = y;
+  set x(final double x);
+  set y(final double y);
   void draw();
 }
 
