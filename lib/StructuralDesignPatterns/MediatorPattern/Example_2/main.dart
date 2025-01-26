@@ -3,13 +3,13 @@ import 'ChatServiceMediator.dart';
 import 'AbstractUser.dart';
 import 'User.dart';
 
-void main(List<String> args) {
+void main(final List<String> args) {
 
-  ChatServiceMediator mediator = ChatServiceMediator();
+  final ChatServiceMediator mediator = ChatServiceMediator();
 
-  AbstractUser user1 = User('Daphne', mediator);
-  AbstractUser user2 = User('Fred', mediator);
-  AbstractUser user3 = User('Rose', mediator);
+  final AbstractUser user1 = User('Daphne', mediator);
+  final AbstractUser user2 = User('Fred', mediator);
+  final AbstractUser user3 = User('Rose', mediator);
 
   user1.sendMessage('You sure picked a spooky day to go boating, Freddy.');
   user2.sendMessage('Well it did not start out that way. What could have hap-pened?');
