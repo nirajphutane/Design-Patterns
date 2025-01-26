@@ -4,6 +4,6 @@ import 'ICab.dart';
 
 abstract interface class ICabCallCenterMediator {
 
-  void registerCab(ICab cab);
-  void bookCab(IPassenger passenger);
+  void registerCab(final ICab cab);
+  void bookCab(final IPassenger passenger);
 }

@@ -9,5 +9,5 @@ abstract interface class IPassenger {
 
   IPassenger(this.name);
 
-  void acknowledge(String status);
+  void acknowledge(final String status);
 }

@@ -16,7 +16,7 @@ class Passenger1 implements IPassenger {
   Passenger1(this.name, this.address, this.location);
 
   @override
-  void acknowledge(String status) => print('Passenger-1: $status');
+  void acknowledge(final String status) => print('Passenger-1: $status');
 }
 
 class Passenger2 implements IPassenger {
@@ -33,7 +33,7 @@ class Passenger2 implements IPassenger {
   Passenger2(this.name, this.address, this.location);
 
   @override
-  void acknowledge(String status) => print('Passenger-2: $status');
+  void acknowledge(final String status) => print('Passenger-2: $status');
 }
 
 class Passenger3 implements IPassenger {
@@ -50,5 +50,5 @@ class Passenger3 implements IPassenger {
   Passenger3(this.name, this.address, this.location);
 
   @override
-  void acknowledge(String status) => print('Passenger-3: $status');
+  void acknowledge(final String status) => print('Passenger-3: $status');
 }

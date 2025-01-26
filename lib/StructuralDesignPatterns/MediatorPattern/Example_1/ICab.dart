@@ -13,5 +13,5 @@ abstract interface class ICab {
 
   bool get isBooked => _isBooked;
 
-  void assign(String status);
+  void assign(final String status);
 }

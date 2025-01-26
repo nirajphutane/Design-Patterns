@@ -20,7 +20,7 @@ class Cab1 implements ICab {
   bool get isBooked => _isBooked;
 
   @override
-  void assign(String status) {
+  void assign(final String status) {
     _isBooked = true;
     print('Cab-1: $status');
   }
@@ -44,7 +44,7 @@ class Cab2 implements ICab {
   bool get isBooked => _isBooked;
 
   @override
-  void assign(String status) {
+  void assign(final String status) {
     _isBooked = true;
     print('Cab-2: $status');
   }
@@ -68,7 +68,7 @@ class Cab3 implements ICab {
   bool get isBooked => _isBooked;
 
   @override
-  void assign(String status) {
+  void assign(final String status) {
     _isBooked = true;
     print('Cab-3: $status');
   }
