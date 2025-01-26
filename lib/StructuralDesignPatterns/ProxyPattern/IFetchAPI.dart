@@ -2,5 +2,5 @@
 import 'ResponseModel.dart';
 
 abstract interface class IFetchAPI {
-  Future<ResponseModel> fetch(String url);
+  Future<ResponseModel> fetch(final String url);
 }

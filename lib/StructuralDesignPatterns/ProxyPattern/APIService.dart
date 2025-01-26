@@ -11,7 +11,7 @@ class APIProxy implements IFetchAPI {
   APIProxy(this._api);
 
   @override
-  Future<ResponseModel> fetch(String url) async {
+  Future<ResponseModel> fetch(final String url) async {
     print('\nURL: $url');
     if(!_map.containsKey(url)) {
       print('Fetching data from URL:');

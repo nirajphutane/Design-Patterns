@@ -14,7 +14,7 @@ class UPIProxy implements IUpi {
   }
 
   @override
-  void pay(double amount) {
+  void pay(final double amount) {
     print('\nTransaction Id for payment request of ₹ $amount is $_transactionId.');
     if(_pin == 1234) {
       UPI().pay(amount);

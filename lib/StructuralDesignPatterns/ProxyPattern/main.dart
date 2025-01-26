@@ -6,9 +6,9 @@ import 'package:design_patterns/StructuralDesignPatterns/ProxyPattern/ResponseMo
 import 'ExpensiveCLassProxy.dart';
 import 'UPIProxy.dart';
 
-void main(List<String> args) {
+void main(final List<String> args) {
   print('1. Example:- Expensive Object:');
-  ExpensiveClassProxy expensiveClassProxy = ExpensiveClassProxy();
+  final ExpensiveClassProxy expensiveClassProxy = ExpensiveClassProxy();
   expensiveClassProxy.execute();
   expensiveClassProxy.execute();
 
@@ -30,7 +30,7 @@ void main(List<String> args) {
 void cache() async {
   print('\n');
   print('3. Example:- Cache:');
-  APIProxy apiProxy = APIProxy(APIService());
+  final APIProxy apiProxy = APIProxy(APIService());
   ResponseModel data = await apiProxy.fetch('my_url.com/my_api');
   print(data.toString());
   data = await apiProxy.fetch('my_url.com/my_api');
