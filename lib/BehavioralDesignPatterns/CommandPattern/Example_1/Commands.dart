@@ -9,9 +9,7 @@ class TurnOnCommand implements ICommand {
   TurnOnCommand(this.light);
 
   @override
-  void execute() {
-    light.turnOn();
-  }
+  void execute() => light.turnOn();
 
 }
 
@@ -22,9 +20,7 @@ class TurnOffCommand implements ICommand {
   TurnOffCommand(this.light);
 
   @override
-  void execute() {
-    light.turnOff();
-  }
+  void execute() => light.turnOff();
 
 }
 
@@ -33,11 +29,8 @@ class SetColorCommand implements ICommand {
   final MultiColorLight light;
   final String color;
 
-  SetColorCommand(this.light, this.color);
+  const SetColorCommand(this.light, this.color);
 
   @override
-  void execute() {
-    light.setColor(color);
-  }
-
+  void execute() => light.setColor(color);
 }

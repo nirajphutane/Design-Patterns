@@ -3,11 +3,11 @@ import 'Commands.dart';
 import 'Invoker.dart';
 import 'MultiColorLight.dart';
 
-void main(List<String> args) {
+void main(final List<String> args) {
 
   final MultiColorLight light = MultiColorLight();
 
-  Invoker switcher = Invoker();
+  final Invoker switcher = Invoker();
   switcher.addCommand(TurnOnCommand(light));
   switcher.addCommand(SetColorCommand(light, 'Green'));
   switcher.addCommand(SetColorCommand(light, 'Red'));
