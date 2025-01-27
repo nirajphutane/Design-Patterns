@@ -4,10 +4,10 @@ import 'AbstractProcessor.dart';
 
 class PositiveProcessor extends AbstractProcessor {
 
-  PositiveProcessor(super.nextProcessor);
+  const PositiveProcessor(super.nextProcessor);
 
   @override
-  void process(Number request) {
+  void process(final Number request) {
     if(request.number > 0) {
       print('Number ${request.number} is Positive.');
     } else {
@@ -18,10 +18,10 @@ class PositiveProcessor extends AbstractProcessor {
 
 class ZeroProcessor extends AbstractProcessor {
 
-  ZeroProcessor(super.nextProcessor);
+  const ZeroProcessor(super.nextProcessor);
 
   @override
-  void process(Number request) {
+  void process(final Number request) {
     if(request.number == 0) {
       print('Number ${request.number} is Zero.');
     } else {
@@ -32,10 +32,10 @@ class ZeroProcessor extends AbstractProcessor {
 
 class NegativeProcessor extends AbstractProcessor {
 
-  NegativeProcessor(super.nextProcessor);
+  const NegativeProcessor(super.nextProcessor);
 
   @override
-  void process(Number request) {
+  void process(final Number request) {
     if(request.number < 0) {
       print('Number ${request.number} is Negative.');
     } else {
