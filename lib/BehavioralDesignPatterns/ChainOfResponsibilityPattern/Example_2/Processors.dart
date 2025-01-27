@@ -6,10 +6,10 @@ class Dispense2000Notes implements IProcessor {
   final int note = 2000;
   final IProcessor _nextChainProcess;
 
-  Dispense2000Notes(this._nextChainProcess);
+  const Dispense2000Notes(this._nextChainProcess);
 
   @override
-  void process(Amount request) {
+  void process(final Amount request) {
     if (request.amount >= note) {
       final (int division, int reminder) = getDivisionAndReminder(request.amount, note);
       print('$note * $division = ${note * division}');
@@ -26,10 +26,10 @@ class Dispense500Notes implements IProcessor {
   final int note = 500;
   final IProcessor _nextChainProcess;
 
-  Dispense500Notes(this._nextChainProcess);
+  const Dispense500Notes(this._nextChainProcess);
 
   @override
-  void process(Amount request) {
+  void process(final Amount request) {
     if (request.amount >= note) {
       final (int division, int reminder) = getDivisionAndReminder(request.amount, note);
       print(' $note * $division = ${note * division}');
@@ -46,10 +46,10 @@ class Dispense200Notes implements IProcessor {
   final int note = 200;
   final IProcessor _nextChainProcess;
 
-  Dispense200Notes(this._nextChainProcess);
+  const Dispense200Notes(this._nextChainProcess);
 
   @override
-  void process(Amount request) {
+  void process(final Amount request) {
     if (request.amount >= note) {
       final (int division, int reminder) = getDivisionAndReminder(request.amount, note);
       print(' $note * $division = ${note * division}');
@@ -65,9 +65,11 @@ class Dispense200Notes implements IProcessor {
 class Dispense100Notes implements IProcessor {
   final int note = 100;
 
+  const Dispense100Notes();
+
   @override
-  void process(Amount request) {
-    final (int division, int reminder) = getDivisionAndReminder(request.amount, note);
+  void process(final Amount request) {
+    final (int division, _) = getDivisionAndReminder(request.amount, note);
     print(' $note * $division = ${note * division}');
   }
 }

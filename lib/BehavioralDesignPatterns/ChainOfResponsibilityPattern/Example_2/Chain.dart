@@ -12,7 +12,7 @@ class Chain {
     _iProcessor = Dispense2000Notes(Dispense500Notes(Dispense200Notes(Dispense100Notes())));
   }
 
-  void execute(Amount amount) {
+  void execute(final Amount amount) {
     if(amount.amount % 100 == 0) {
       print('\n\nDispensing amount of ₹ ${amount.amount}.\n');
       _iProcessor.process(amount);
