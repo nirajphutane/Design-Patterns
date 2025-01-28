@@ -8,7 +8,7 @@ class TerminalExpression implements IExpression {
   TerminalExpression(this.data);
 
   @override
-  bool interpreter(String context) => context.contains(data);
+  bool interpreter(final String context) => context.contains(data);
 }
 
 class AndExpression implements IExpression {
@@ -18,7 +18,7 @@ class AndExpression implements IExpression {
   AndExpression(this.expression1, this.expression2);
 
   @override
-  bool interpreter(String context) => expression1.interpreter(context) && expression2.interpreter(context);
+  bool interpreter(final String context) => expression1.interpreter(context) && expression2.interpreter(context);
 }
 
 class OrExpression implements IExpression {
@@ -28,5 +28,5 @@ class OrExpression implements IExpression {
   OrExpression(this.expression1, this.expression2);
 
   @override
-  bool interpreter(String context) => expression1.interpreter(context) || expression2.interpreter(context);
+  bool interpreter(final String context) => expression1.interpreter(context) || expression2.interpreter(context);
 }
