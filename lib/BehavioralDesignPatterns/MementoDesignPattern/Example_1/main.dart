@@ -1,11 +1,10 @@
 
-import 'Memento.dart';
 import 'CareTaker.dart';
 import 'Originator.dart';
 
-void main(List<String> args) {
-  Originator originator = Originator();
-  CareTaker careTaker = CareTaker();
+void main(final List<String> args) {
+  final Originator originator = Originator();
+  final CareTaker careTaker = CareTaker();
 
   originator.state = 'I';
   careTaker.save(originator.saveStateToMemento());

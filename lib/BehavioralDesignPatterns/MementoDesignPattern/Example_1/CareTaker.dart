@@ -5,9 +5,9 @@ import 'Memento.dart';
 class CareTaker {
   final List<Memento> _history = [];
 
-  void save(Memento memento) => _history.add(memento);
+  void save(final Memento memento) => _history.add(memento);
 
-  void retrieve(Originator originator, int index) {
+  void retrieve(final Originator originator, final int index) {
     if(0 <= index && index < _history.length) {
       originator.retrieveStateFromMemento(_history[index]);
     } else {
@@ -15,7 +15,7 @@ class CareTaker {
     }
   }
 
-  void undo(Originator originator) {
+  void undo(final Originator originator) {
     if(_history.isNotEmpty) {
       originator.retrieveStateFromMemento(_history.removeLast());
     } else {

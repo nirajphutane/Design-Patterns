@@ -6,5 +6,5 @@ class Originator {
 
   Memento saveStateToMemento() => Memento(state);
 
-  void retrieveStateFromMemento(Memento memento) => state = memento.getState();
+  void retrieveStateFromMemento(final Memento memento) => state = memento.getState();
 }
