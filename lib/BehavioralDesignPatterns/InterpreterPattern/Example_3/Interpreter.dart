@@ -7,13 +7,10 @@ class Interpreter {
 
   final String input;
 
-  Interpreter(this.input);
+  const Interpreter(this.input);
 
-  String interpret(Context context) {
-
-    final RegExpMatch? match = RegExp(r'\d+').firstMatch(input);
-    context.n =  int.tryParse(match?.group(0)?? '')?? 0;
-
+  String interpret(final Context context) {
+    context.n =  int.tryParse(RegExp(r'\d+').firstMatch(input)?.group(0)?? '')?? 0;
     late IExpression expression;
     if(input.toLowerCase().contains('binary')) {
       expression = Binary();
@@ -24,7 +21,6 @@ class Interpreter {
     } else {
       return 'Invalid operation!!';
     }
-
     return expression.interpreter(context);
   }
 }
