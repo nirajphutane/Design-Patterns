@@ -6,7 +6,7 @@ import 'InterpreterEngine.dart';
 
 class Interpreter {
 
-  void interpret(String query) {
+  void interpret(final String query) {
     try {
       print('\n$query');
       final InterpreterEngine engine = InterpreterEngine(query);
@@ -32,10 +32,7 @@ class Interpreter {
           iExpression = AreaOfTriangle();
           break;
         }
-        default: {
-          print('Exception: Un-supported Expression!');
-          return;
-        }
+        default: throw 'Exception: Un-supported Expression!';
       }
       print('Area is ${iExpression.interpret(context).toString()}');
     } catch(error) {

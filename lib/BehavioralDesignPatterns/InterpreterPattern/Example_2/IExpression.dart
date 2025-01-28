@@ -2,5 +2,5 @@
 import 'Context.dart';
 
 abstract interface class IExpression {
-  double interpret(Context context);
+  double interpret(final Context context);
 }

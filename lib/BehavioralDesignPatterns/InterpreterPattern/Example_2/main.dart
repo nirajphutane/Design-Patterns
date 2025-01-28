@@ -1,8 +1,8 @@
 
 import 'Interpreter.dart';
 
-void main(List<String> args) {
-  Interpreter interpreter = Interpreter();
+void main(final List<String> args) {
+  final Interpreter interpreter = Interpreter();
 
   interpreter.interpret('Calculate area of Circle of radius 10.3.');  // Language Grammar or Expression
 
