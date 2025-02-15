@@ -5,9 +5,7 @@ class OperationManager {
 
   final IOperationStrategy _strategy;
 
-  OperationManager(this._strategy);
+  const OperationManager(this._strategy);
 
-  double perform() {
-    return _strategy.calculate();
-  }
+  double perform() => _strategy.calculate();
 }
