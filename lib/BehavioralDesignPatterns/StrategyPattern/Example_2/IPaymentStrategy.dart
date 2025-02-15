@@ -1,4 +1,4 @@
 
 abstract class IPaymentStrategy {
-  String pay(double amount);
+  String pay(final double amount);
 }
