@@ -3,7 +3,7 @@ abstract interface class IComputer {
 
   final String os;
 
-  IComputer(this.os);
+  const IComputer(this.os);
 
   void run();
 }

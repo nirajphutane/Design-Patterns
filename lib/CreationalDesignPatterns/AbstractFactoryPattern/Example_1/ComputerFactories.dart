@@ -8,7 +8,7 @@ class PCFactory implements AbstractComputerFactory {
   @override
   final String os;
 
-  PCFactory(this.os);
+  const PCFactory(this.os);
 
   @override
   IComputer createComputer() => PC(os);
@@ -19,7 +19,7 @@ class LaptopFactory implements AbstractComputerFactory {
   @override
   final String os;
 
-  LaptopFactory(this.os);
+  const LaptopFactory(this.os);
 
   @override
   IComputer createComputer() => Laptop(os);

@@ -5,7 +5,7 @@ abstract interface class AbstractComputerFactory {
 
   final String os;
 
-  AbstractComputerFactory(this.os);
+  const AbstractComputerFactory(this.os);
 
   IComputer createComputer();
 }
