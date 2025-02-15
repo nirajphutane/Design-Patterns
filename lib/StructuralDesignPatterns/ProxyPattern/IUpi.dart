@@ -1,5 +1,5 @@
 
 abstract interface class IUpi {
 
-  void pay(double amount);
+  void pay(final double amount);
 }
