@@ -2,5 +2,5 @@
 import 'IVisitor.dart';
 
 abstract interface class IShape {
-  void accept(IVisitor visitor);
+  void accept(final IVisitor visitor);
 }
