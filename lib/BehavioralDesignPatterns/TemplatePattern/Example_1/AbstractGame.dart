@@ -3,8 +3,8 @@ import 'package:meta/meta.dart';
 
 abstract class AbstractGame {
 
-  String playerName;
-  AbstractGame(this.playerName);
+  final String playerName;
+  const AbstractGame(this.playerName);
 
   void initialize();
   void start();
