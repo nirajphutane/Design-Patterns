@@ -1,12 +1,12 @@
 import 'States.dart';
 import 'Context.dart';
 
-void main(List<String> args) {
+void main(final List<String> args) {
      Context context = Context();
 
-     State1 state1 = State1();
+     const State1 state1 = State1();
      state1.setState(context);
 
-     State2 state2 = State2();
+     const State2 state2 = State2();
      state2.setState(context);
  }
