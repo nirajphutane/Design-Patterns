@@ -6,7 +6,7 @@ class Circle implements ICloneable {
 
   final double _radius;
 
-  Circle(this._radius);
+  const Circle(this._radius);
 
   void draw() => print('Drawing Circle of radius $_radius.');
 
