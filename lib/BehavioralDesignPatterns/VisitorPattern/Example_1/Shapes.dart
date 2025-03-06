@@ -1,30 +1,28 @@
 
-import 'IVisitor.dart';
+import 'IVisitable.dart';
 import 'IShape.dart';
+import 'IVisitor.dart';
 
-class Circle implements IShape {
-  final int radius;
+class Circle implements IShape, IVisitable {
 
+  final double radius;
   const Circle(this.radius);
 
   @override
-  void accept(final IVisitor visitor) => visitor.saveCircle(this);
+  void draw() => print('Circle of radius $radius cm.');
+
+  @override
+  void area(final IVisitor visitor) => visitor.areaOfCircle(this);
 }
 
-class Rectangle implements IShape {
-  final int height, width;
+class Rectangle implements IShape, IVisitable {
 
+  final double height, width;
   const Rectangle(this.height, this.width);
 
   @override
-  void accept(final IVisitor visitor) => visitor.saveRectangle(this);
-}
-
-class Triangle implements IShape {
-  final int base, left, right;
-
-  const Triangle(this.base, this.left, this.right);
+  void draw() => print('Rectangle of size $height cm by $width cm.');
 
   @override
-  void accept(final IVisitor visitor) => visitor.saveTriangle(this);
+  void area(final IVisitor visitor) => visitor.areaOfRectangle(this);
 }

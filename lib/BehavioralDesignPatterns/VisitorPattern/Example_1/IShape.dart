@@ -1,6 +1,8 @@
 
 import 'IVisitor.dart';
+import 'IVisitable.dart';
 
 abstract interface class IShape {
-  void accept(final IVisitor visitor);
+
+  void draw();
 }
