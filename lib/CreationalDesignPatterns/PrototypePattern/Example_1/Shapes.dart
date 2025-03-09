@@ -32,9 +32,7 @@ class Rectangle implements ICloneable {
   void draw() => print('Drawing Rectangle of size $_length * $_width.');
 
   @override
-  Rectangle clone() {
-    return Rectangle._fromSource(this);
-  }
+  Rectangle clone() => Rectangle._fromSource(this);
 
   @override
   int get hashCode => _hashCode = _hashCode?? Random().hashCode;
