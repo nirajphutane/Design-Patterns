@@ -7,7 +7,7 @@ class Employee {
   bool? _isManager;
   double? _salary;
 
-  Employee._create(EmployeeBuilder builder) {
+  Employee._create(final EmployeeBuilder builder) {
     _name = builder.name;
     _emailId = builder.emailId;
     _band = builder.band;
